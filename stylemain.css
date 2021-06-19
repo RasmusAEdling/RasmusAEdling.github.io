@@ -194,15 +194,15 @@ hr {
 
 @media screen and (max-width: 800px) {
   .thumb {
-    flex: 50%;
-    max-width: 50%;
+    flex: 45%;
+    max-width: 45%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .thumb {
-    flex: 100%;
-    max-width: 100%;
+    flex: 90%;
+    max-width: 90%;
   }
 }
 
