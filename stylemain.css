@@ -175,7 +175,7 @@ hr {
     max-width: 95%;
   }
   header {
-    min-width: 95%;
+    width: 95%;
   }
   [class*="thumb"] {
     flex: 45%;
@@ -190,7 +190,7 @@ hr {
   [class*="imglinks"] {
     
     
-    width: 70%;
+    width: 50%;
   }
 }
 
@@ -199,7 +199,7 @@ hr {
     max-width: 95%;
   }
   header {
-    min-width: 95%;
+    width: 95%;
   }
   [class*="thumb"] {
     flex: 90%;
@@ -208,12 +208,12 @@ hr {
   }
   [class*="aboutsection"] {
     
-    width: 100%;
+    width: 90%;
   
   }
   [class*="imglinks"] {
     
-    width: 70%;
+    width: 50%;
     
   }
 }
