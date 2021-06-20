@@ -182,6 +182,16 @@ hr {
     min-width: 45%;
     max-width: 45%;
   }
+  [class*="aboutsection"] {
+    
+    
+    max-width: 45%;
+  }
+  [class*="imglinks"] {
+    
+    
+    max-width: 45%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -195,6 +205,16 @@ hr {
     flex: 90%;
     min-width: 90%;
     max-width: 90%;
+  }
+  [class*="aboutsection"] {
+    
+    min-width: 95%;
+  
+  }
+  [class*="imglinks"] {
+    
+    min-width: 45%;
+    
   }
 }
 
