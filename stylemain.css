@@ -175,7 +175,7 @@ hr {
     max-width: 95%;
   }
   header {
-    width: 95%;
+    min-width: 95%;
   }
   [class*="thumb"] {
     flex: 45%;
@@ -188,7 +188,7 @@ hr {
     max-width: 95%;
   }
   header {
-    width: 95%;
+    min-width: 95%;
   }
   [class*="thumb"] {
     flex: 90%;
