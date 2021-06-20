@@ -54,7 +54,6 @@ main {
 header {
   
   background-size: cover;
-  
   height: 150px;
   margin: 0;
 
@@ -68,6 +67,7 @@ header h1 {
   
   
 }
+
 hr {
   border: 0; 
   height: 1px;
@@ -79,10 +79,11 @@ hr {
   position: relative;
   top: 5px;
   width: auto;
- 
-   
   
+   
 }
+
+
 .links {
   font-family: 'Times New Roman', Times, serif;
   font-weight: 300;
@@ -166,41 +167,24 @@ hr {
     
   
 }
-/*.six{
-  grid-area: six;
- 
-}
-.five {
-  grid-area: five;
 
-}
 
-.four {
-  grid-area: four;
-
-}
-.three {
-  grid-area: three;
-
-}
-.two {
-  grid-area: two;
-
-}
-.one {
-  grid-area: one;
-
-} */
 
 @media screen and (max-width: 800px) {
-  .thumb {
+  body {
+    max-width: 95%;
+  }
+  [class*="thumb"] {
     flex: 45%;
     max-width: 45%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .thumb {
+  body {
+    max-width: 95%;
+  }
+  [class*="thumb"] {
     flex: 90%;
     max-width: 90%;
   }
