@@ -179,6 +179,7 @@ hr {
   }
   [class*="thumb"] {
     flex: 45%;
+    min-width: 45%;
     max-width: 45%;
   }
 }
@@ -192,6 +193,7 @@ hr {
   }
   [class*="thumb"] {
     flex: 90%;
+    min-width: 90%;
     max-width: 90%;
   }
 }
