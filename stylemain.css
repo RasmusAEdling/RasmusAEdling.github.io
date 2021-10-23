@@ -332,6 +332,8 @@ footer a {
   [class*="thumbs"] {
     max-width: 100%;
     grid-template-columns: 150px 150px 150px;
+    grid-gap: 20px;
+    
   }
   [class*="aboutsection"] {
     
@@ -354,7 +356,9 @@ footer a {
   }
   [class*="thumbs"] {
     grid-template-columns: 150px 150px;
-    max-width: 90%;
+    max-width: 100%;
+    grid-gap: 20px;
+       
   }
   [class*="aboutsection"] {
     
