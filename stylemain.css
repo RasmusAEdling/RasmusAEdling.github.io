@@ -43,7 +43,9 @@ body {
   overflow: scroll;
   color: #301923;
   /*background-color: #8cbfb4;*/
-  background-image: linear-gradient(#6e6d74, rgb(152, 129, 137));
+  /*background-image: linear-gradient(#6e6d74, rgb(152, 129, 137));*/
+  background-image: url(./bg/cross-stripes.png);
+  background-repeat: repeat;
  }
 main {
   /*center site*/
