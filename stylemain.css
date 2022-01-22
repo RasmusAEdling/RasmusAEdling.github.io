@@ -105,6 +105,8 @@ hr {
   height: auto; 
   object-fit: contain;
 }
+
+
 .logo {
   width: 300px;
   display: block;
@@ -151,6 +153,21 @@ hr {
 }
 .thumbs img {
 
+width: auto;
+max-width: 150px;
+}
+
+.thumbs2 {
+  /*display: grid;*/
+  max-width: 600px;
+  grid-template-columns: 200px 200px 200px 200px;
+  
+justify-content: space-around;
+box-align: center;
+grid-gap: 20px;
+margin: auto;                  
+}
+.thumbs2 img {
 width: auto;
 max-width: 150px;
 }
@@ -249,6 +266,15 @@ footer a {
 }
 .invisible {
   color: rgba(252, 239, 228, 0);
+}
+
+.description {
+  max-width: 1500px;
+  margin: auto;
+  text-align: center;
+  /*height: 800px;*/
+  color: rgb(245, 242, 255);
+  
 }
 
 .entry {
