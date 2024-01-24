@@ -387,32 +387,7 @@ footer a {
   }
 }
 
-/*@media screen and (max-width: 600px) {
-  body {
-    max-width: 95%;
-  }
-  header {
-    width: 95%;
-  }
-  [class*="thumbs"] {
-    grid-template-columns: 150px 150px;
-    max-width: 100%;
-    grid-gap: 20px;
-       
-  }
-  [class*="aboutsection"] {
-    
-    width: 90%;
-  
-  }
-  [class*="imglinks"] {
-    
-    width: 50%;
-    
-  }
-}*/
-
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   body {
     max-width: 95%;
   }

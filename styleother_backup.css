@@ -1,0 +1,33 @@
+.aboutsection { 
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    height: 800px;
+    color: rgb(232, 226, 207);
+
+}
+
+.aboutsection img{
+    height: auto; 
+     
+    max-width: 100%; 
+    
+}
+.aboutsection p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.entry {
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    height: 800px;
+}
+
+.entryimages img{
+    height: auto; 
+     
+    max-width: 100%; 
+
+}
